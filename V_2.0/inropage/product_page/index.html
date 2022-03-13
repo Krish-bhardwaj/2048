@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .main {
+            align-items: center;
+            background-color: #FFBF00;
+        }
+        
+        .intro {
+            height: 50px;
+            width: 100px;
+            background-color: #555;
+        }
+        
+        .logo {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .rectangle {
+            height: 80px;
+            font-size: xx-large;
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 100px;
+        }
+        
+        .rectangle2 {
+            grid-column-start: 2;
+            height: 500px;
+            width: end;
+            font-size: large;
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: black;
+            display: flex;
+            border-radius: 50px;
+            align-self: flex-end;
+        }
+        
+        .rectangle3 {
+            grid-column-start: 1;
+            height: 500px;
+            width: end;
+            font-size: large;
+            padding-left: 10px;
+            padding-right: 20px;
+            background-color: white;
+            display: flex;
+            border-radius: 50px;
+        }
+        
+        .aboutgame {
+            display: grid;
+        }
+    </style>
+</head>
+
+<body class="main">
+
+    <div class="logo"><img src="logo.png" width="500" height="500"></div>
+    <div class="rectangle">
+        <a style="font-family: sans-serif;text-decoration:none;padding-left: 50px;padding-top: 23px;color: white;" href="#aboutgame">ABOUT GAME </a>
+        <a style="font-family: sans-serif;text-decoration:none;padding-top: 23px;color: white;" href="#aboutapp">ABOUT APP</a>
+        <a style="font-family: sans-serif;text-decoration:none;padding-top: 23px;color: white;" href="#aboutproject">ABOUT PROJECT </a>
+        <a style="font-family: sans-serif;text-decoration:none;padding-top: 23px;color: white;" href="#download">DOWNLOAD </a>
+        <a style="font-family: sans-serif;text-decoration:none;padding-right: 50px;padding-top: 23px;color: white;" href="#sourcefile">SOURCE FILE </a>
+    </div>
+    <div id="aboutgame" class="aboutgame">
+        <p style="font-family: sans-serif;padding-left: 50px;font-size:50PX;">
+            <B>ABOUT GAME</B>
+        </p>
+        <div class="rectangle3">
+
+        </div>
+        <div class="rectangle2">
+
+        </div>
+    </div>
+    <div id="aboutapp" class="aboutapp">
+        <h2 style="font-family: sans-serif;padding-right: 50px;font-size:50PX;text-align: right;">
+            <B>ABOUT APP</B>
+        </h2>
+
+    </div>
+    <div id="aboutproject" class="aboutproject ">
+        <h2 style="font-family: sans-serif;padding-left: 50px;font-size:50PX;">
+            <B>ABOUT PROJECT</B>
+        </h2>
+    </div>
+    <div id="download" class="download ">
+        <h2 style="font-family: sans-serif;padding: 50px;font-size:50PX;text-align: center;">
+            <B>DOWNLOAD</B>
+        </h2>
+    </div>
+    <div id="sourcefile" class="sourcefile ">
+        <h2 style="font-family: sans-serif;padding: 50px;font-size:50PX;text-align: center;">
+            <B>SOURCE FILE</B>
+        </h2>
+    </div>
+</body>
+
+</html>
